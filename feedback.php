@@ -6,10 +6,10 @@
   <meta name="generator" content="Mobirise v4.12.3, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo-1.png" type="image/x-icon">
-  <meta name="description" content="Web Maker Description">
+  <meta name="description" content="Website Builder Description">
   
   
-  <title>mechanicalnotes</title>
+  <title>Feedback form</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -19,12 +19,13 @@
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+
   
   
   
 </head>
 <body>
-  <section class="menu cid-rUUDDLS1q7" once="menu" id="menu1-11">
+  <section class="menu cid-rUSVEQW6AW" once="menu" id="menu1-5">
 
     
 
@@ -41,7 +42,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="index.html">
-                         <img src="assets/images/logo-1.png" alt="Mobirise" title="" style="height: 5.1rem;">
+                         <img src="assets/images/logo-1.png" alt="noteswala" title="" style="height: 5.1rem;">
                     </a>
                 </span>
                 <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="index.html"><span class="mbri-arrow-next mbr-iconfont mbr-iconfont-btn"></span></a></span>
@@ -63,74 +64,67 @@
                         upload
                     </a>
                 </li></ul>
-            
         </div>
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/z">best free website templates</a></section><section class="header12 cid-rUUDDN44tv mbr-parallax-background" id="header12-12">
-
-    
-
-    <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(35, 35, 35);">
+<section class="mbr-section form1 cid-rWJEzrO91L" id="form1-41">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-12 col-lg-8">
+                <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">
+                    FEEDBACK FORM
+                </h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">
+                    Please provide your valuable feedback to us regarding our notes and papers.
+                </h3>
+            </div>
+        </div>
     </div>
-
-    <div class="container  ">
-            <div class="media-container">
-                <div class="col-md-12 align-center">
-                    <h1 class="mbr-section-title pb-3 mbr-white mbr-bold mbr-fonts-style display-1">MECHANICAL NOTES</h1>
-                    <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-5">ENGINEERING NOTES FOR ALL YEARS</p>
-                    
-
-                    <div class="icons-media-container mbr-white">
-                        <div class="card col-12 col-md-6 col-lg-3">
-                            <div class="icon-block">
-                            <a href="1styearnotes.html">
-                                <span class="mbr-iconfont mbri-edit"></span>
-                            </a>
-                            </div>
-                            <h5 class="mbr-fonts-style display-2">1st Year</h5>
-                        </div>
-
-                        <div class="card col-12 col-md-6 col-lg-3">
-                            <div class="icon-block">
-                                <a href="2ndyearmechanicalnotes.html">
-                                    <span class="mbr-iconfont mbri-edit"></span>
-                                </a>
-                            </div>
-                            <h5 class="mbr-fonts-style display-2">2nd Year</h5>
-                        </div>
-
-                        <div class="card col-12 col-md-6 col-lg-3">
-                            <div class="icon-block">
-                                <a href="3rdyearmechanicalnotes.html">
-                                    <span class="mbr-iconfont mbri-edit"></span>
-                                </a>
-                            </div>
-                            <h5 class="mbr-fonts-style display-2">3rd Year</h5>
-                        </div>
-
-                        <div class="card col-12 col-md-6 col-lg-3">
-                            <div class="icon-block">
-                                <a href="4thyearmechanicalnotes.html">
-                                    <span class="mbr-iconfont mbri-edit"></span>
-                                </a>
-                            </div>
-                            <h5 class="mbr-fonts-style display-2">4th Year</h5>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="media-container-column col-lg-8" data-form-type="formoid">
+                <form action="" method="POST" class="mbr-form form-with-styler" data-form-title="Form"><input type="hidden" name="email" data-form-email="true" value="XYnwPu75mex/hzkvIlP7MYLCXCx0Ossop8LR38QzGzKMbQrC0MxFFjvQjnlSEeKe6Mi8xa4Z4RQqjx/OtaLu7bG3U012Hg3RS4lWkOvu+9K2p15UMXhlKKeQK2iF+P04">
+                    <div class="row" >
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
                         </div>
                     </div>
-                </div>
+                    <div class="dragArea row">
+                        <div class="col-md-4  form-group" data-for="name">
+                            <label for="name-form1-41" class="form-control-label mbr-fonts-style display-7">Name</label>
+                            <input type="text" name="name" data-form-field="Name" required="required" class="form-control display-7" id="name-form1-41">
+                        </div>
+                        <div class="col-md-4  form-group" data-for="email">
+                            <label for="email-form1-41" class="form-control-label mbr-fonts-style display-7">Email</label>
+                            <input type="email" name="email" data-form-field="Email" required="required" class="form-control display-7" id="email-form1-41">
+                        </div>
+                        <div data-for="phone" class="col-md-4  form-group">
+                            <label for="phone-form1-41" class="form-control-label mbr-fonts-style display-7">Phone</label>
+                            <input type="tel" name="phone" data-form-field="Phone" class="form-control display-7" id="phone-form1-41">
+                        </div>
+                        <div data-for="message" class="col-md-12 form-group">
+                            <label for="message-form1-41" class="form-control-label mbr-fonts-style display-7">Message</label>
+                            <textarea name="message" data-form-field="Message" class="form-control display-7" id="message-form1-41"></textarea>
+                        </div>
+                        <div class="col-md-12 input-group-btn align-center">
+                            <button type="submit" class="btn btn-primary btn-form display-4">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
             </div>
+        </div>
     </div>
-
-    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-        <a href="#next">
-            <i class="mbri-down mbr-iconfont"></i>
-        </a>
-    </div>
+    <br>
+    <br>
 </section>
-
-<section class="cid-rUUDDON66O" id="footer1-13">
+<section class="cid-rUTqwGfzDi" id="footer1-v">
 
     
 
@@ -213,7 +207,31 @@
   <script src="assets/dropdown/js/nav-dropdown.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/theme/js/script.js"></script>
-  
+<?php
+
+if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) && isset($_POST['message'])) {
+  if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['phone']) || empty($_POST['message'])) {
+    echo 'All fields are required';
+  }
+  else {
+
+    $formdata = array(
+      'Name'=> $_POST['name'],
+      'email'=> $_POST['email'],
+      'Phone'=> $_POST['phone'],
+      'Message'=> $_POST['message']
+    );
+
+    $jsondata = json_encode($formdata, JSON_PRETTY_PRINT);
+
+    if(file_put_contents('feedback/formdata.txt', $jsondata,FILE_APPEND))
+    echo '<script>alert("You have successfully submitted the form")</script>';
+    else 
+    echo '<script>alert("Form is not subimtted successfully")</script>';
+  }
+}
+
+?>
   
 </body>
 </html>

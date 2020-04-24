@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v4.12.3, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo-1.png" type="image/x-icon">
   <meta name="description" content="Website Creator Description">
@@ -19,9 +18,28 @@
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <style>
+      [type="file"] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+[type="file"] + label {
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0rem;
+  outline: none;
+  padding: 0rem 0px;
+  position: relative;
+  vertical-align: middle;
+}
   
-  
-  
+  </style>
 </head>
 <body>
   <section class="menu cid-rUSVEQW6AW" once="menu" id="menu1-3w">
@@ -66,7 +84,7 @@
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(70, 80, 82);">
+    <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(70, 80, 82);">
     </div>
 
     <div class="container">
@@ -75,15 +93,21 @@
                 <h1 class="mbr-section-title mbr-white align-center mbr-bold pb-3 mbr-fonts-style display-1">Noteswala</h1>
                 <h3 class="mbr-section-subtitle mbr-white align-center mbr-light pb-3 mbr-fonts-style display-2">Thankyou</h3>
                 <div class="mbr-section-text mbr-white pb-3 ">
-                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">&nbsp;For Uploading the notes or papers<br>it would help alot of student for Prepareing their semester exams<br> as well as competitive exams</p></div>
-                <div class="mbr-section-btn align-center">
-				<a class="btn btn-md btn-primary display-4" href="https://mobirise.co">
-                        <span class="mbr-iconfont mbri-file"></span>Click to Upload file</a></div>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">&nbsp;For Uploading the notes or papers<br>it would help many of students for Preparing their semester exams<br> as well as competitive exams</p></div>
+                <form action="" method="POST" enctype="multipart/form-data">
+                 <div class="mbr-section-btn align-center">
+				     <input type="file" name='file' id='file' onchange="form.submit()"/>
+				     <label for="file" class="btn-2">
+				     <span class="btn btn-md btn-primary display-4"><span class="mbr-iconfont mbri-file">Upload</span></span></label>
+                 </div>
+                </form>
             </div>
         </div>
     </div>
 
 </section>
+<script type="text/javascript" src="~/lib/jquery/dist/jquery.js"></script>
+
 
 
 <section class="cid-rUTqsqiqcy" id="footer1-u">
@@ -92,7 +116,7 @@
             <div class="col-12 col-md-3">
                 <div class="media-wrap">
                     <a href="index.html">
-                        <img src="assets/images/logo.png" alt="Mobirise" title="">
+                        <img src="assets/images/logo.png" alt="logo" title="">
                     </a>
                 </div>
             </div>
@@ -114,6 +138,7 @@
                     Links
                 </h5>
                 <p class="mbr-text"><a href="aboutus.html"><font color="white">About Us</font></a><br></p>
+                <p class="mbr-text"><a href="feedback.php"><font color="white">Feedback form</font></a><br></p>
             </div>
         </div>
         <div class="footer-lower">
@@ -151,7 +176,6 @@
     </div>
 </section>
 
-
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -162,7 +186,20 @@
   <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/theme/js/script.js"></script>
-  
-  
+
+
+<?php
+$target_path = "uploaded/";
+
+$target_path = $target_path . basename( $_FILES['file']['name']); 
+
+if(move_uploaded_file($_FILES['file']['tmp_name'], $target_path)) {
+    echo "The file ".  basename( $_FILES['file']['name']). 
+    " has been uploaded";
+    echo '<script>alert("Unsuccessful! Please try again.");</script>';
+} else{
+    echo '<script>alert("Unsuccessful! Please try again.");</script>';
+}
+?>
 </body>
 </html>
